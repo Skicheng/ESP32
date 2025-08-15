@@ -78,3 +78,4 @@ The code includes comprehensive error detection and handling mechanisms:
 3. Upload the program to ESP32S3 development board via USB cable
 4. Open Serial Monitor (115200 baud rate) to monitor operation status
 5. Use MQTT client to subscribe to the specified topic for data reception
+  
