@@ -5,14 +5,14 @@ dht11 DHT;
 
 #define DHT11_PIN 2
 
-const char *ssid = "theWayOut3_5G";          // Change this to your WiFi SSID
-const char *password = "DFRobot@2017";  // Change this to your WiFi password
+const char *ssid = "********";          // Change this to your WiFi SSID
+const char *password = "********";  // Change this to your WiFi password
 
 // MQTT Broker settings
-const char *mqtt_server = "192.168.199.205";  // Home Assistant IP address (or your MQTT broker)
+const char *mqtt_server = "********";  // Home Assistant IP address (or your MQTT broker)
 const int mqtt_port = 1883;                    // Default MQTT port
-const char *mqtt_user = "yvonne";             // MQTT username
-const char *mqtt_password = "DFROBOT0317";    // MQTT password
+const char *mqtt_user = "********";             // MQTT username
+const char *mqtt_password = "********";    // MQTT password
 
 // Publish and subscribe topics
 const char* pub_topic = "esp32c5/data";
